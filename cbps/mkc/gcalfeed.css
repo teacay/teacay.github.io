@@ -1,0 +1,17 @@
+html, body {
+    margin: 0px !important;
+    padding: 0px !important;
+    border: 0px !important;
+    width: 100%;
+    height: 100%;
+}
+#events-upcoming { list-style:none; margin-top:0px;margin-left:0px;padding:0px;}
+#events-upcoming li { list-style:none; padding:0px; margin:0px; margin-bottom:10px; padding-bottom:2px; font-family:Arial, Helvetica, sans-serif;font-size:9pt;}
+#eventlist2 li { list-style:none; padding:0px; margin:0px; margin-bottom:10px; padding-bottom:2px; border-bottom:1px dashed #ababab;font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#565656;}
+.summary { font-family:Arial, Helvetica, sans-serif;font-weight:bold;font-size:10pt;margin-bottom:3px;}
+.date { font-family:Arial, Helvetica, sans-serif;font-size:9pt;}
+a.sidebar-links {text-decoration:none;color:#565656;}
+a.sidebar-links:hover {text-decoration:none;color:#9a9a9a;}
+
+
+

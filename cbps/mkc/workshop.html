@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="./gcalfeed.css">
+  </head>
+  <body>
+   <a href="http://chinesebrushsd.blogspot.com/p/workshops.html"  target="_top" class="sidebar-links">
+    <ul id="events-upcoming">
+    </ul>
+    </a>
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="format-google-calendar.js"></script>
+    <script>
+      formatGoogleCalendar.init({
+        calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/6ad6926pvmfquc8a2fjc1pfspk@group.calendar.google.com/events?key=AIzaSyBappJmcch533xmzFF48ERpYy1H6jvhrqQ',
+        past: false,
+        upcoming: true,
+        sameDayTimes: true,
+        pastTopN: 20,
+        upcomingTopN: 1,
+        itemsTagName: 'li',
+        upcomingSelector: '#events-upcoming',
+        pastSelector: '#events-past',
+        upcomingHeading: '<h2>Upcoming events</h2>',
+        pastHeading: '<h2>Past events</h2>',
+        format: ['*summary*', ' <br /> ','*date*']
+      });
+    </script>
+  </body>
+</html>
