@@ -16,11 +16,11 @@
     <script src="format-google-calendar.js"></script>
     <script>
       formatGoogleCalendar.init({
-        calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/6ad6926pvmfquc8a2fjc1pfspk@group.calendar.google.com/events?key=AIzaSyBappJmcch533xmzFF48ERpYy1H6jvhrqQ',
+        calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/6ad6926pvmfquc8a2fjc1pfspk@group.calendar.google.com/events?key=AIzaSyBappJmcch533xmzFF48ERpYy1H6jvhrqQ&orderBy=startTime&singleEvents=true',
         past: false,
         upcoming: true,
         sameDayTimes: true,
-        pastTopN: 20,
+        pastTopN: 0,
         upcomingTopN: 1,
         itemsTagName: 'li',
         upcomingSelector: '#events-upcoming',
